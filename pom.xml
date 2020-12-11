@@ -35,15 +35,15 @@
                     <goals>install</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <localCheckout>true</localCheckout>
+                    <pushChanges>false</pushChanges>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
     <scm>
-        <connection>scm:git:http://${icraciunescu}:${j23031974@cr}@github.com/icraciunescu/pet-clinic.git</connection>
-        <url>https://github.com/icraciunescu/pet-clinic.git</url>
-        <tag>HEAD</tag>
+        <developerConnection>scm:git:https://github.com/icraciunescu/pet-clinic.git</developerConnection>
+      <tag>pet-clinic-0.0.5</tag>
   </scm>
 
 </project>
