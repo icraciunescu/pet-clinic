@@ -19,7 +19,7 @@
     <description>Pet Clinic Project</description>
 
     <properties>
-        <java.version>15</java.version>
+        <java.version>1.8</java.version>
     </properties>
 
     <build>
@@ -33,6 +33,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
