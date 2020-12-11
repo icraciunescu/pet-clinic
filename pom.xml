@@ -14,7 +14,7 @@
     </parent>
     <groupId>ro.mediaxpress</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.4</version>
+    <version>0.0.5-SNAPSHOT</version>
     <name>pet-clinic</name>
     <description>Pet Clinic Project</description>
 
@@ -33,7 +33,6 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
-                    <useReleaseProfile>false</useReleaseProfile>
                 </configuration>
             </plugin>
         </plugins>
