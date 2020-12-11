@@ -3,7 +3,7 @@
     <parent>
         <artifactId>pet-clinic</artifactId>
         <groupId>ro.mediaxpress</groupId>
-        <version>0.0.1</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -58,7 +58,7 @@
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
-        <start-class>ro.mediaxpress.petclinic</start-class>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
     </properties>
 
 </project>
