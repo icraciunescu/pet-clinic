@@ -14,7 +14,7 @@
     </parent>
     <groupId>ro.mediaxpress</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.9</version>
+    <version>0.0.10-SNAPSHOT</version>
     <name>pet-clinic</name>
     <description>Pet Clinic Project</description>
 
@@ -43,7 +43,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/icraciunescu/pet-clinic.git</developerConnection>
-      <tag>pet-clinic-0.0.9</tag>
+      <tag>pet-clinic-0.0.5</tag>
   </scm>
 
 </project>
