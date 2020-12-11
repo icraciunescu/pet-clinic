@@ -14,7 +14,7 @@
     </parent>
     <groupId>ro.mediaxpress</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.8</version>
+    <version>0.0.8-SNAPSHOT</version>
     <name>pet-clinic</name>
     <description>Pet Clinic Project</description>
 
@@ -35,7 +35,6 @@
                     <goals>install</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <localCheckout>true</localCheckout>
-                    <pushChanges>false</pushChanges>
                 </configuration>
             </plugin>
         </plugins>
@@ -43,7 +42,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/icraciunescu/pet-clinic.git</developerConnection>
-      <tag>pet-clinic-0.0.8</tag>
+      <tag>pet-clinic-0.0.5</tag>
   </scm>
 
 </project>
